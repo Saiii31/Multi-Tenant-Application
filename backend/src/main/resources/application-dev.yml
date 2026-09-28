@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/saas_platform
+    username: ${DB_USERNAME:saas}
+    password: ${DB_PASSWORD:saas}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: INFO
+    org.springframework.jdbc: INFO

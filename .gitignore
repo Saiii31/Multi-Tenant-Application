@@ -1,0 +1,24 @@
+# Java / Maven
+**/target/
+*.class
+
+# Angular / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/coverage/
+
+# Local environment and secrets
+.env
+**/.env
+!.env.example
+
+# IDE and operating system files
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+Thumbs.db
+.DS_Store
